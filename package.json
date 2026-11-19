@@ -1,0 +1,17 @@
+{
+  "name": "tsclean",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "test": "node --test 'test/**/*.test.ts'",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "typescript": "^6.0.3"
+  }
+}
